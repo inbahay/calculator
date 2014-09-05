@@ -1,0 +1,1236 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+
+<title>Car Lease Calculator | Auto Lease Calculator - Dealer Charges, Monthly Payments</title>
+
+<meta name="description" content="Easy auto car lease calculator for monthy break up of lease payments including taxes and other dealer charges."/> 
+<meta name="keywords" content="car lease calculator, lease calculator, car lease calculate, car lease payment calculator, car leasing calculator, car lease loan calculator, car lease calculation, car lease calculators, new car lease calculator, auto lease calculator, auto leasing calculator, auto lease loan calculator, auto payment calculator"/> 
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="google-site-verification" content="e9RKjHp8yoIdgILvrwBujjbLJUtu_gnTBCtwvaUcI94" />
+<meta name="y_key" content="e63d7866a35b3da5"/>
+
+<meta name="msvalidate.01" content="A81CDAEED543C6CBD85F930108588B57" />
+
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript" src="calc.js"></script>
+
+<script language="javascript" type="text/javascript" src="pagename.js"></script>
+
+<style type="text/css">
+
+/*<![CDATA[*/
+
+ table.c7 {border:1px solid #4995C7;display:none;}
+
+td.contenttext {font-size:12px;}
+
+ td.c6 {background-color: #999999}
+
+td.comment {font-size:12px;}
+
+ input.c5 {border:0px;text-align:right; font-weight:bold; width:200px;}
+
+ table.c4 {display:none;}
+
+ table.c3 {border:1px solid #4995C7;}
+
+ div.c2 {text-align: right}
+
+ td.c1 {border-left:1px solid #4995C7;}
+
+  p {
+	text-align:center;
+	padding:0px;
+}
+
+/*]]>*/
+
+</style>
+
+</head>
+
+<body onload="document.getElementById('txtmsrp').focus();">
+
+<div id="wrapper">
+<div id="header">
+<div class="tr br bl">
+<h1><a href="#"></a></h1>
+<ul id="nav-top">
+
+<li><a href="index.html">Car Lease Calculator </a> |</li>
+
+<li><a href="lease-versus-buy.html">Lease vs Buy</a> |</li>
+
+<li><a href="how-to-lease-a-car.html">How to Lease a Car?</a> |</li>
+
+<li><a href="lease-take-over.html">Lease Take Over</a> |</li>
+
+</ul>
+
+
+
+<!-- end top-nav --></div>
+
+
+
+<!-- end .corners --></div>
+
+
+
+<!-- end header -->
+
+
+
+<div id="body">
+
+<form name="form1" method="post" action="" id="form1">
+
+<input type="hidden" name="showmsg" id="showmsg" />
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+
+<tr class="headerbg">
+
+<td><h1 align="center">Car Lease Calculator</h1></td>
+
+</tr>
+
+<tr>
+
+<td align="center" class="contenttext"><p>Easy Car Lease Calculator makes it very simple to calcualte lease deals with any dealer across America. It calculates monthly lease payment, taxes, total lease cost, any hidden charges by the dealer and financial charges. While going for negatiation with the
+dealer, it would be a good idea to take the print ou of the calcualtion you have done here as a reference so that you can avoid any last minute surprises.</p>
+
+</td>
+</tr>
+</table>
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" id="submain">
+
+
+
+<tr>
+
+
+
+<td width="49%" valign="top">
+
+
+
+<table width="100%" border="0">
+
+
+
+<tr class="headerbg">
+
+
+
+<td colspan="2">Details
+
+
+
+<div class="c2"></div>
+
+
+
+</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>MSRP</td>
+
+
+
+<td><input name="msrpval" id="msrpval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Base Cap Cost</td>
+
+
+
+<td><input name="bccval" id="bccval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Costs Added to Lease</td>
+
+
+
+<td><input name="calval" id="calval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Cap Cost Reductions</td>
+
+
+
+<td><input name="ccrval" id="ccrval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Adjusted Cap Cost</td>
+
+
+
+<td><input name="accval" id="accval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Residual Value</td>
+
+
+
+<td><input name="rvval" id="rvval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Money Factor</td>
+
+
+
+<td><input name="mfval" id="mfval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Term (Months)</td>
+
+
+
+<td><input name="termval" id="termval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Sales Tax</td>
+
+
+
+<td><input name="stval" id="stval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Monthly Payment</td>
+
+
+
+<td>
+
+
+
+<div id ="mpval" align="right" style="font-weight:bold;color:#0B0000;"> </div>
+
+
+
+</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td class="c6" colspan="2" height="1"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Depreciation</td>
+
+
+
+<td><input name="depval" id="depval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Finance Charges </td>
+
+
+
+<td><input name="rentval" id="rentval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Total Sales Tax</td>
+
+
+
+<td><input name="totalstval" id="totalstval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td class="c6" colspan="2" height="1"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Total All Payments</td>
+
+
+
+<td><input name="totalpaymentval" id="totalpaymentval" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Total Lease Cost</td>
+
+
+
+<td><input name="totalleasecost" id="totalleasecost" type="text" value="0" class="c5" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td colspan="2"><a href="#" onclick="window.print();">Print Me</a></td>
+
+
+
+
+
+
+
+</tr>
+
+
+
+</table>
+
+
+
+</td>
+
+
+
+<td width="1%" class="c1"></td>
+
+
+
+<td width="50%" valign="top">
+
+
+
+<table width="100%" border="0" id="msrp">
+
+
+
+<tr class="headerbg">
+
+
+
+<td>1. MSRP</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Enter the Manufacturer's Suggested Retail Price (MSRP) for your vehicle.</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>$ <input id="txtmsrp" name="txtmsrp" type="text" onchange="totalwin();" onkeypress="return noNumbers(event);" /></td>
+
+
+
+</tr>
+
+
+
+<tr class="headerbg">
+
+
+
+<td>Agreed Lease Price or Base Cap Cost</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td class="comment">Enter the lease price negotiated with the dealer<br />
+
+[Should be lower than MSRP]</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>$ <input id="txtbcc" name="txtbcc" type="text" onblur="return setval('txtbcc');" onfocus="return clearval('txtbcc');" value="0" onchange="totalwin();" onkeypress="return noNumbers(event);" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td class="comment">* MSRP - Window sticker price<br />
+
+  * Base Cap Cost - The vehicle price you agree with the<br />
+
+dealer which should be lower than the MSRP sticker price.</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td height="200" align="right"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td align="center"><input type="button" name="Submit" onclick="showwin('cal');" value="Next" /></td>
+
+
+
+</tr>
+
+
+
+</table>
+
+
+
+<table width="100%" border="0" id="cal" class="c4">
+
+
+
+<tr class="headerbg">
+
+
+
+<td>2. Costs Added to Lease</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Enter any additional charges in your lease [Optional Field] </td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>$ <input id="txtcal" name="txtcal" type="text" value="0" onblur="return setval('txtcal');" onfocus="return clearval('txtcal');" onchange="accvalcalc();" onkeypress="return noNumbers(event);" /></td>
+
+
+
+</tr>
+
+<tr><td class="comment"><p>*The cost of lease is reduced further if you make a down payment or do a trade-in or 
+
+get a rabate from the manufacturer.</p></td></tr>
+
+<tr class="headerbg">
+
+
+
+<td>Cap Cost Reduction</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Enter any Cap Cost Reductions you have [Optional Field]</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>
+
+
+
+<table width="100%" border="0">
+
+
+
+<tr>
+
+
+
+<td>Down Payment</td>
+
+
+
+<td>Trade-In Credit</td>
+
+
+
+<td>Other Charges</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td><input id="txtccr1" name="txtccr1" type="text" value="0" onblur="return setval('txtccr1');"  onfocus="return clearval('txtccr1');"  onchange="accvalcalc();" onkeypress="return noNumbers(event);" /></td>
+
+
+
+<td><input id="txtccr2" name="txtccr2" type="text" value="0" onblur="return setval('txtccr2');"  onfocus="return clearval('txtccr2');"  onchange="accvalcalc();" onkeypress="return noNumbers(event);" /></td>
+
+
+
+<td><input id="txtccr3" name="txtccr3" type="text" value="0" onblur="return setval('txtccr3');"  onfocus="return clearval('txtccr3');"  onchange="accvalcalc();" onkeypress="return noNumbers(event);" /></td>
+
+
+
+</tr>
+
+<tr><td colspan="3" class="comment"><p>* Other charges included in your lease such as, bank fee, tax or insurance.</p></td></tr>
+
+</table>
+
+
+
+</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td height="100" align="right"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td align="center"><input type="button" name="Submit" value="Back" onclick="showwin('msrp');" /> <input type="button" name="Submit" onclick="accvalcalc();showwin('ccr');" value="Next" /></td>
+
+
+
+</tr>
+
+
+
+</table>
+
+
+
+<table width="100%" border="0" id="ccr" class="c4">
+
+
+
+
+
+
+
+<tr class="headerbg">
+
+
+
+<td>3. Aggregate (Net) Capitalized Cost </td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>*This is the Net Capital Price on which your monthly lease payment would be calculated. Adjust the price, 
+
+if it does not match with the dealer's negotiated price. 
+
+</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td><input id="txtacc" name="txtacc" type="text" value="0" onblur="return setval('txtacc');" onfocus="return clearval('txtacc');" onchange="acccalc();" onkeypress="return noNumbers(event);" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td height="200" align="right"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td align="center"><input type="button" name="Submit" value="Back" onclick="showwin('cal');" /> <input type="button" name="Submit" onclick="showwin('rv');" value="Next" /></td>
+
+
+
+</tr>
+
+
+
+</table>
+
+
+
+<table width="100%" border="0" id="rv" class="c4">
+
+
+
+<tr class="headerbg">
+
+
+
+<td>4.Residual Value</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Enter the end of lease term Residual Value -or- Percentage for your vehicle</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>$<input id="txtrv1" name="txtrv1" type="text" value="0" onblur="return setval('txtrv1');" onfocus="return clearval('txtrv1');" onchange="totalwin();" onkeypress="return noNumbers(event);" /> <input id="txtrv2" name="txtrv2" maxlength="2" type="text" value="0" onblur="return setval('txtrv2');" onfocus="return clearval('txtrv2');" onchange="percentwin();" onkeypress="numberalone();percentwin();return;" />%</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+<td class="comment">
+
+<p>
+
+* Residual value is the estimate of your vehicles price at the end of lease term. It is often set by the lease companies. Tip: The higher the value, the lower is your lease cost. Get this value from the dealer. </p>
+
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+
+
+<td height="200" align="right"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td align="center"><input type="button" name="Submit" value="Back" onclick="showwin('ccr');" /> <input type="button" name="Submit" onclick="residualvalue();showwin('mf');" value="Next" /></td>
+
+
+
+</tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+<table width="100%" border="0" id="mf" class="c4">
+
+
+
+<tr class="headerbg">
+
+
+
+<td>5.Lease Finance Charges or Money Factor </td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>$<input id="txtmf1" name="txtmf1" type="text" value="0" onblur="return setval('txtmf1');" onfocus="return clearval('txtmf1');" onchange="moneyfactor2();" onkeypress="return noNumbers(event);" /> <input id="txtmf2" name="txtmf2" maxlength="2" type="text" value="0" onblur="return setval('txtmf2');" onfocus="return clearval('txtmf2');" onchange="moneyfactor1();" onkeypress="numberalone();moneyfactor1();return;" />%</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td class="comment"><p>* Finance charges, Money Factor or Interest Rate determines the rate set by the dealer or lease companies expressed in decimal like 0.00235.
+
+
+
+If you are unware of the Money Factor, you could refer to new car loan website such as www.BankRate.com and enter the APR like 6% of 7% here, which will automatically calculate the money factor. </p></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td height="200" align="right"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td align="center"><input type="button" name="Submit" value="Back" onclick="showwin('rv');" /> <input type="button" name="Submit" onclick="showwin('term');" value="Next" /></td>
+
+
+
+</tr>
+
+
+
+</table>
+
+
+
+<table width="100%" border="0" id="term" class="c4">
+
+
+
+<tr class="headerbg">
+
+
+
+<td>5.Total Lease Term</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Enter, In months the total terms of your lease. </td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td><input id="txtterm" name="txtterm" type="text" value="0" onblur="return setval('txtterm');" onfocus="return clearval('txtterm');"  onchange="totalwin();" onkeypress="return noNumbers(event);" />Months</td>
+
+
+
+</tr>
+
+
+
+<tr class="headerbg">
+
+
+
+<td>Sales Tax in % </td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Enter the Sales Tax rate in your area [optional]</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td><input id="txtst" name="txtst" type="text" value="0" onfocus="return clearval('txtst');" onblur="return setval('txtst');"  onchange="totalwin();" onkeypress="return noNumbers(event);" />%</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+<td class="comment"><p>
+
+* Lease term is expressed in months like 24,36, or 48.<br />
+
+* Sales tax vary depending upon your location, state and city, it is generally expressed in percentage like 6 or 7%.</p>
+
+</td>
+
+
+
+</tr>
+
+<tr>
+
+
+
+<td height="200" align="right"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td align="center"><input type="button" name="Submit" value="Back" onclick="showwin('rv');" /> <input type="button" name="Submit" onclick="return checkterms();" value="Next" /></td>
+
+
+
+</tr>
+
+
+
+</table>
+
+
+
+<table width="100%" border="0" id="result" class="c4" cellpadding="0" cellspacing="1">
+
+
+
+<tr class="headerbg">
+
+
+
+<td>6. Results</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>Your monthly lease payment, including any sales tax, is :</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td>$<input id="txtresult" name="txtresult" type="text" value="0" readonly="readonly" onchange="totalwin();" onkeypress="return noNumbers(event);" /></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td height="200" align="right"></td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+<td align="center"><input type="button" name="Submit" value="Back" onclick="showwin('term');" /></td>
+
+
+
+</tr>
+
+
+
+</table>
+
+
+
+</td>
+
+
+
+</tr>
+
+
+
+</table>
+
+
+
+</form>
+
+
+
+</div>
+
+
+
+<div id="footer">
+
+
+
+<table width="100%" >
+
+
+
+<tr>
+
+
+
+<td valign="middle" style="text-align:center;">
+
+
+
+<a href="aboutus.html">About us</a> | <a href="contactus.html">Contact us</a> |<a href="links.html"> Links</a> |<a href="privacy.html"> Privacy</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="sitemap.html">Sitemap </a></td>
+
+
+
+<td align="right" style="width:90px;">    <a href="http://validator.w3.org/check?uri=referer"><img
+
+
+
+        src="http://www.w3.org/Icons/valid-xhtml10-blue"
+
+
+
+        alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+
+
+
+</td>
+
+
+
+</tr>
+</table>
+</div>
+<!-- end footer --></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11594243-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+
+
+

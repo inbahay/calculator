@@ -1,0 +1,65 @@
+Easy Car Lease Calculator makes it very simple to calcualte lease deals with any dealer across America. It calculates monthly lease payment, taxes, total lease cost, any hidden charges by the dealer and financial charges. While going for negatiation with the dealer, it would be a good idea to take the print ou of the calcualtion you have done here as a reference so that you can avoid any last minute surprises.
+
+
+Enter the Manufacturer's Suggested Retail Price (MSRP) for your vehicle
+
+Agreed Lease Price or Base Cap Cost 
+Enter the lease price negotiated with the dealer
+[Should be lower than MSRP] 
+
+
+ Costs Added to Lease 
+Enter any additional charges included in your lease [Optional] 
+
+
+Cap Cost Reduction 
+Enter any Cap Cost Reductions you have [optional] 
+
+Down Payment Trade-In Credit Other 
+ 
+
+Aggregate (Net) Capitalized Cost 
+This is the Net Capital Price on which your monthly lease payment would be calculated. Adjust the price, 
+if it does not match with the dealer negotiated price. 
+
+
+Residual Value 
+Enter the end of lease term Residual Value -or- Percentage for your vehicle ? 
+
+<tr>
+<td>
+* Residual value is the estimate of your vehicles price at the end of lease term. It is often set by the lease companies. Tip: The higher the value, the lower is your lease cost. Get this value from the dealer. 
+</td>
+</tr>
+
+
+Lease Finance Charges or Money Factor 
+
+* Finance charges, Money Factor or Interest Rate determines the rate set by the dealer or lease companies expressed in decimal like 0.00235.
+
+If you are unware of the Money Factor, you could refer to new car loan website such as www.bankrate.com and enter the APR % here, which will automatically calculate the money factor.  
+
+
+Total Lease Term 
+Enter, In months the total terms of your lease. 
+
+ 
+Sales Tax in % 
+Enter the Sales Tax rate in your area [optional] ? 
+
+
+Car Lease Calculator | Auto Lease Calculator - Step by Step Guide
+
+
+<meta name="description" content="Easy auto car lease calculator for monthy break up of lease payments including taxes and other dealer charges."/> 
+<meta name="keywords" content="car leasing, lease calculator, payment calculator, lease, leasing, lease car, auto leasing, car leasing"/> 
+
+
+
+<tr>
+<td>
+* Cost added to lease - Other charges included in your lease such as, bank fee, tax or insurance.
+* Cap cost reduction - The cost of lease is reduced further if you make a down payment or do a trade-in or 
+get a rabate from the manufacturer.
+</td>
+</tr>

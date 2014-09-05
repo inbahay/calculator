@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^easycarleasecalculator.com$
+RewriteRule ^(.*)$ "http\:\/\/www\.easycarleasecalculator\.com$1" [R=301,L]
+
